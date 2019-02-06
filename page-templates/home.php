@@ -335,7 +335,7 @@ get_header();?>
 
         <div class="col-12">
 
-            <h4 class="heading heading__md heading__alt-color text-center">Form Title</h4>
+            <h4 class="heading heading__md heading__alt-color text-center">Contact Us</h4>
 
         </div>
 
