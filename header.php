@@ -20,7 +20,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-    
+
 	<div id="page" class="site-wrapper">
 
 		<nav>
@@ -34,7 +34,7 @@
 					</div>
 
 					<div class="col-lg-9 col-sm-5 col-6">
-						
+
 						<div class="nav-wrapper">
 
 							<div class="nav-wrapper__trigger hamburger hamburger--collapse">
@@ -48,10 +48,10 @@
 							<div class="nav-wrapper__menu">
 
 							    <?php
-							    wp_nav_menu( array( 
-							    'theme_location' => 'main-menu', 
-							    'container_class' => 'mainMenu' ) ); 
-							    ?>   
+							    wp_nav_menu( array(
+							    'theme_location' => 'main-menu',
+							    'container_class' => 'mainMenu' ) );
+							    ?>
 
 							</div>
 
@@ -61,7 +61,7 @@
 
 					<div class="col-lg-2 col-sm-5 col-6 text-right telephone">
 						<?php the_field('telephone_number', 'option');?>
-					</div>			
+					</div>
 
 
 				</div>
