@@ -116,6 +116,7 @@
     </div>
 </div>
 
+
                 <div class="col-4 socket__colophon">
 
                     &copy; Karen Gables Lodge <?php echo date ('Y');?>
