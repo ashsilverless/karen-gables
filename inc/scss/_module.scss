@@ -438,3 +438,17 @@ a.closeTrigger:before {
       }
     }
 }
+
+.mapboxgl-popup-content {
+  background: $brand-orange;
+  color: hsl(0, 0%, 100%);
+}
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+  border-top-color: $brand-orange;
+}
+
+.mapboxgl-popup-close-button {
+    display: none;
+}
+
