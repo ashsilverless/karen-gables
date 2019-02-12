@@ -34,9 +34,24 @@ get_header();?>
 
             <div class="col-sm-6 offset-sm-3 col-10 offset-1 text-center">
 
-                    <div class="leader">
+                    <div class="content">
 
-                        <?php the_field('about_copy');?>
+                        <div class="content__lead">
+
+                            <?php the_field('about_copy');?>
+
+                        </div>
+
+                        <a class="openTrigger">Read More</a>
+
+                       <div class="content__hidden">
+
+                            <?php the_field('about_copy_more');?>
+
+                            <a class="closeTrigger">Read Less</a>
+
+                       </div>
+
 
                     </div>
 
@@ -55,7 +70,7 @@ get_header();?>
 
         <div class="room-card <?php the_sub_field('display_format');?>">
 
-            <div class="room-card__carousel owl-carousel owl-theme">
+            <div class="room-card__carousel standard owl-carousel owl-theme">
 
             <?php
             $images = get_sub_field('images');
@@ -119,7 +134,7 @@ get_header();?>
 
             <div class="col-sm-8">
 
-                <div class="room-card__carousel owl-carousel owl-theme">
+                <div class="room-card__carousel standard owl-carousel owl-theme">
 
                 <?php
                 $images = get_sub_field('images');
@@ -171,7 +186,7 @@ get_header();?>
 
             <div class="col-sm-6">
 
-                <div class="room-card__carousel owl-carousel owl-theme">
+                <div class="room-card__carousel standard owl-carousel owl-theme">
 
                 <?php
                 $images = get_sub_field('images');
@@ -214,6 +229,30 @@ get_header();?>
 <?php endif; ?>
 
 <?php endwhile; endif; ?>
+
+<div class="owl-carousel testimonial-slider">
+  <?php if (have_rows('testimonial', 'option')):
+  while (have_rows('testimonial', 'option')) : the_row();
+  ?>
+
+    <div class="testimonial-slider__item">
+
+
+
+      <p><span class="quotemarks">"</span><?php the_sub_field('testimonial', 'option');?><span class="quotemarks">"</span>
+      <span><?php the_sub_field('attribution', 'option');?></span>
+      </p>
+
+      <div id="countdown">
+          <svg>
+              <circle r="18" cx="20" cy="20"></circle>
+          </svg>
+      </div>
+
+    </div>
+  <?php endwhile;  endif; ?>
+</div>
+
 <!-- ******************* Gallery  ******************* -->
 <div id="gallery"></div>
 
@@ -286,7 +325,7 @@ get_header();?>
 
 						<div class="multi-panel__lower-section__panel">
 
-                            <div class="room-card__carousel owl-carousel owl-theme">
+                            <div class="room-card__carousel standard owl-carousel owl-theme">
 
                                 <?php
                                 $images = get_sub_field('images');

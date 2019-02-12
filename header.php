@@ -66,6 +66,17 @@
 
 				</div>
 
+				<div class="tour-link text-right">
+
+					<a href="">
+
+						<img src="<?php echo get_stylesheet_directory_uri(); ?>/inc/img/360-icon.png"/>
+
+						<span>House Tour</span>
+
+					</a>
+
+				</div>
 
 			</div>
 
