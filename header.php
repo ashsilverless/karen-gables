@@ -68,7 +68,7 @@
 
 				<div class="tour-link text-right">
 
-					<a href="">
+					<a href="https://my.matterport.com/show/?m=ykHDH1yGKzE&brand=0" target="_blank">
 
 						<img src="<?php echo get_stylesheet_directory_uri(); ?>/inc/img/360-icon.png"/>
 
