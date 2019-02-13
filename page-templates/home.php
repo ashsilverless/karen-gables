@@ -94,7 +94,7 @@ get_header();?>
 
                     <div class="col-10 offset-1">
 
-                        <h4 class="heading heading__md heading__alt-color mb1"><?php the_sub_field('room_title');?></h4>
+                        <h4 class="heading heading__md heading__alt-color mb1 room-title"><?php the_sub_field('room_title');?></h4>
 
                     </div>
 
