@@ -154,7 +154,7 @@ get_header();?>
 
                 <div class="room-card__content">
 
-                    <h4 class="heading heading__md heading__alt-color mb1 mt1"><?php the_sub_field('room_title');?></h4>
+                    <h4 class="heading heading__md heading__alt-color mb1 mt1 room-title"><?php the_sub_field('room_title');?></h4>
 
                     <?php the_sub_field('room_description');?>
 
@@ -206,7 +206,7 @@ get_header();?>
 
                 <div class="room-card__content">
 
-                    <h4 class="heading heading__md heading__alt-color mb1 mt1"><?php the_sub_field('room_title');?></h4>
+                    <h4 class="heading heading__md heading__alt-color mb1 mt1 room-title"><?php the_sub_field('room_title');?></h4>
 
                     <?php the_sub_field('room_description');?>
 
