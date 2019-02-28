@@ -232,7 +232,7 @@ get_header();?>
 
 <div class="owl-carousel testimonial-slider">
   <?php if (have_rows('testimonial', 'option')):
-  while (have_rows('testimonial', 'option')) : the_row();
+        while (have_rows('testimonial', 'option')) : the_row();
   ?>
 
     <div class="testimonial-slider__item">
