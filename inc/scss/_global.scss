@@ -213,7 +213,9 @@ nav {
   }
 }
 
-
+.page-template-default nav {
+    display: none !important;
+}
 
 .scrolled {
     .header-inner {

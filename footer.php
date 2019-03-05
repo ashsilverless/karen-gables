@@ -121,9 +121,9 @@
 
                     &copy; Karen Gables Lodge <?php echo date ('Y');?>
 
-                    <a href="">Terms</a>
+                    <a href="/terms-and-conditions">Terms</a>
 
-                    <a href="">Privacy</a>
+                    <a href="/privacy">Privacy</a>
 
                 </div>
 
