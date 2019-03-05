@@ -382,7 +382,9 @@ get_header();?>
 
                 <p><strong><?php the_field('telephone_number', 'option');?></strong></p>
 
-                <p><strong>booking@karengables.com</strong></p>
+                <p><strong><?php the_field('email_address', 'option');?></strong></p>
+
+                <p><strong><?php the_field('address', 'option');?></strong></p>
 
             </div>
 
