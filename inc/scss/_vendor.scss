@@ -99,14 +99,18 @@
 
 .cookie-notice-container {
   background: hsl(11, 99%, 65%);
-  padding: 0px;
+  padding: 4px;
 }
 
-a#cn-accept-cookie:before {
+.cn-button {
+border: 2px solid hsl(0, 0%, 100%);
+}
+
+.cn-button:before {
   display: none;
 }
 
-a#cn-accept-cookie:hover {
+.cn-button:hover {
   color: hsl(0, 0%, 100%);
   background: hsl(311, 13%, 17%);
 }
