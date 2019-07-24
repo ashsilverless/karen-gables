@@ -29,7 +29,14 @@ jQuery(document).ready(function( $ ) {
     $('nav a, a.button').click(function(){
         $('html, body').animate({
             scrollTop: $( $(this).attr('href') ).offset().top -100
-        }, 500);
+        }, 1000);
+        return false;
+    });
+
+    $('.wrapper-hero a').click(function(){
+        $('html, body').animate({
+            scrollTop: $( $(this).attr('href') ).offset().top -50
+        }, 1500);
         return false;
     });
 

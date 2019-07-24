@@ -16,10 +16,12 @@ get_header();?>
     <div class="wrapper-hero" style="background-image: url(<?php echo $heroImage['url']; ?>);">
 
         <h1 class="heading heading__xl heading__light heading__alt-font">Karen Gables</h1>
+        
+        <a href="#first"><i class="fas fa-chevron-down"></i></a>
 
     </div>
 
-<div class="container">
+<div id="first" class="container">
 
 <!-- ******************* Intro Content ******************* -->
 <div id="about"></div>

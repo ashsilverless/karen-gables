@@ -7,9 +7,9 @@
     display: grid;
     justify-content: center;
     align-content: end;
-    height: 70vh;
+    height: 100vh;
     z-index: 50;
-    padding-bottom: 3em;
+    padding-bottom: 5em;
 
     &:before {
         @include blackGrad;
@@ -27,6 +27,22 @@
         transform: translateY(0.5em);
         opacity: 0;
         transition: all 5s ease;
+    }
+    
+    i {
+        position: absolute;
+        bottom: 1em;
+        left: 50%;
+        color: hsl(0, 0%, 100%);
+        font-size: 2em;
+        z-index: 999;
+        margin-left: -.5em;
+        transition: all 0.5s ease;
+        
+        &:hover {
+            cursor: pointer;
+            margin-bottom: -10px;
+        }
     }
 }
 
